@@ -25,6 +25,12 @@ export default [
     icon: 'barChart',
     component: './AddChart',
   },
+  {
+    name: '智能分析(异步)',
+    path: '/add_chart_async',
+    icon: 'barChart',
+    component: './AddChartAsync',
+  },
 
   {
     path: '/user',
