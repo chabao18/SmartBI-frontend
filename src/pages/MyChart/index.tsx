@@ -11,6 +11,8 @@ const MyChart: React.FC = () => {
   const initSearchParams = {
     pageSize: 4,
     current: 1,
+    sortField: 'createTime',
+    sortOrder: 'desc',
   };
 
   const [searchParams, setSearchParams] = useState<API.ChartQueryRequest>(initSearchParams);
