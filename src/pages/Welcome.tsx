@@ -126,8 +126,10 @@ const Welcome: React.FC = () => {
               width: '65%',
             }}
           >
-            智能BI 是一个整合了 umi，智能BI 和 ProComponents
-            的脚手架方案。致力于在设计规范和基础组件的基础上，继续向上构建，提炼出典型模板/业务组件/配套设计资源，进一步提升企业级中后台产品设计研发过程中的『用户』和『设计者』的体验。
+            智能BI，一个智能数据分析平台。这是一个强大的工具，用于处理和分析Excel数据，帮助用户进行商业决策。通过该平台，
+            用户可以轻松上传Excel文件，系统将自动进行数据解析，并智能生成各类图表，包括柱状图、折线图、饼图等。
+            智能BI不仅能够快速展示数据的可视化结果，还支持用户进行深度的数据分析，挖掘数据背后的潜在价值。平台的直观操作界面和丰富的分析功能，
+            使得用户无论是在数据处理还是商业分析方面，都能够获得极大的便利和支持。
           </p>
           <div
             style={{
@@ -138,21 +140,15 @@ const Welcome: React.FC = () => {
           >
             <InfoCard
               index={1}
-              href="https://umijs.org/docs/introduce/introduce"
-              title="了解 umi"
-              desc="umi 是一个可扩展的企业级前端应用框架,umi 以路由为基础的，同时支持配置式路由和约定式路由，保证路由的功能完备，并以此进行功能扩展。"
+              href="/add_chart"
+              title="生成图表"
+              desc="上传Excel文件，系统将自动进行数据解析，并智能生成各类图表，包括柱状图、折线图、饼图等。"
             />
             <InfoCard
               index={2}
-              title="了解 智能BI"
-              href="https://ant.design"
-              desc="antd 是基于 智能BI 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。"
-            />
-            <InfoCard
-              index={3}
-              title="了解 Pro Components"
-              href="https://procomponents.ant.design"
-              desc="ProComponents 是一个基于 智能BI 做了更高抽象的模板组件，以 一个组件就是一个页面为开发理念，为中后台开发带来更好的体验。"
+              title="查看结果"
+              href="/my_chart"
+              desc="查看生成的图表结果，支持用户进行深度的数据分析，挖掘数据背后的潜在价值。"
             />
           </div>
         </div>
