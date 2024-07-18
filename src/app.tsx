@@ -125,7 +125,7 @@ export const layout: ({initialState, setInitialState}: { initialState: any; setI
  */
 export const request = {
   // 指向后端地址
-  baseURL: 'http://localhost:8080',
+  baseURL: isDev? 'http://localhost:8080' : "https://smartbi-backend-115353-5-1328039484.sh.run.tcloudbase.com",
   // 加入cookie
   withCredentials: true,
   ...errorConfig,
